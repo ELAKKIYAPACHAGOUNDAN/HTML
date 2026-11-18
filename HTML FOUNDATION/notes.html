@@ -175,5 +175,42 @@ Evaluation of HTML:
     -> It is a self-closing tag and requires the src attribute to specify the image source.
     -> Example: <img src="image.jpg" alt="Description of image" width="500" height="300">
 
--->
+28. What is audio tag in html?
+    -> The <audio> tag is used to embed audio content in an HTML document.
+    -> It can include attributes like controls, autoplay, loop, and muted to control playback behavior.
+    -> Example: <audio controls src="audio.mp3" alt="Audio not found"></audio>
 
+29. What is video tag in html?
+    -> The <video> tag is used to embed video content in an HTML document.  
+    -> It can include attributes like controls, autoplay, loop, and muted to control playback behavior.
+    -> Example: <video controls src="video.mp4" alt="Video not found" width="500" height="300"></video>
+
+30. Why we are using Controls attribute in audio and video tag?
+    -> The controls attribute is used in the <audio> and <video> tags to provide built-in 
+        playback controls for the media.
+    -> When the controls attribute is present, the browser will display a set of controls 
+        (play, pause, volume, etc.) for the user to interact with the media.
+    -> Example: <audio controls src="audio.mp3"></audio> or <video controls src="video.mp4"></video>
+
+31. Types to add audio and video in html:
+    1. From local host
+    2. From browser
+
+32. Methods to add audio and video in html:
+    1. Using "src" attribute in audio and video tag
+        <audio controls src="audio.mp3"></audio>
+        <video controls src="video.mp4"></video>
+
+    2. Using "source" tag inside audio and video tag
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+
+    -- we can add muted, loop, autoplay in the audio and video tag as well next to controls attribute.
+    -- we can add height and width in the video tag to adjust the size of the video player.
+
+      
